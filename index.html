@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rusty Lloyd Santos | IT Student Portfolio</title>
+  <meta name="description" content="Portfolio of Rusty Lloyd Santos, an IT student majoring in Infrastructure Systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800;900&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a class="brand" href="#profile">RL Santos</a>
+    <nav aria-label="Main">
+      <ul class="tabs">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- PROFILE / HERO -->
+    <section id="profile" class="hero">
+      <div class="hero-inner">
+        <img class="avatar" src="https://avatars.githubusercontent.com/u/289187480?v=4" alt="Photo of Rusty Lloyd Santos">
+        <div class="hero-text">
+          <h1>Rusty Lloyd Santos</h1>
+          <p class="role">IT student in Infrastructure Systems and aspiring developer.</p>
+          <p class="lead">I'm learning how to build, manage and secure the networks, servers and systems that everything else runs on.</p>
+          <div class="actions">
+            <a class="btn btn-dark" href="https://github.com/RL-Santos" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn btn-line" href="https://www.linkedin.com/in/rusty-lloyd-santos" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <dl class="facts">
+        <div><dt>Focus</dt><dd>Infrastructure and security</dd></div>
+        <div><dt>Main OS</dt><dd>Linux Mint</dd></div>
+        <div><dt>Status</dt><dd>Currently studying</dd></div>
+        <div><dt>Based in</dt><dd>Philippines</dd></div>
+      </dl>
+    </section>
+
+    <div class="tape" aria-hidden="true"></div>
+
+    <!-- ABOUT -->
+    <section id="about" class="block">
+      <h2>About me</h2>
+      <div class="two-col">
+        <div class="prose">
+          <p>I'm pursuing a BS in Information Technology, majoring in Infrastructure Systems. My coursework covers networking, software concepts and cybersecurity fundamentals, and I'm building on it with hands-on projects and self-directed learning.</p>
+          <p>Outside class I run Linux Mint, write small Bash scripts to automate things, and make games in Unity. I document what I learn on GitHub as I go.</p>
+        </div>
+        <div class="edu">
+          <h3>Education</h3>
+          <p class="edu-title">BS Information Technology, Infrastructure Systems</p>
+          <p>Bulacan State University</p>
+          <p class="muted">Expected graduation: 2028</p>
+
+          <h3>Currently learning</h3>
+          <ul class="plain">
+            <li>Linux system administration</li>
+            <li>Networking fundamentals</li>
+            <li>Git and Python</li>
+            <li>DevOps, cloud and automation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="block">
+      <h2>Skills</h2>
+      <div class="skill-groups">
+        <div>
+          <h3>Languages</h3>
+          <ul class="chips">
+            <li>Java</li>
+            <li>C#</li>
+            <li>Python (beginner)</li>
+            <li>SQL</li>
+            <li>HTML and CSS</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Systems and networking</h3>
+          <ul class="chips">
+            <li>Linux Mint</li>
+            <li>Bash scripting</li>
+            <li>TCP/IP</li>
+            <li>Subnetting</li>
+            <li>Cisco</li>
+            <li>Hardware troubleshooting</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul class="chips">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Unity</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="sub">Certifications</h3>
+      <ul class="plain certs">
+        <li>Linux Essentials <span>Cisco Networking Academy, issued Aug 2026</span></li>
+        <li>Networking Basics <span>Cisco Networking Academy, issued Aug 2026</span></li>
+        <li>Linux Unhatched <span>Cisco Networking Academy, issued Jul 2026</span></li>
+        <li>Computer Hardware Basics <span>Cisco Networking Academy, issued Feb 2026</span></li>
+        <li>HTML and CSS for Beginners from Basic to Advance <span>Udemy, issued Feb 2026</span></li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="block">
+      <h2>Projects</h2>
+      <ul class="projects">
+        <li>
+          <div class="p-head">
+            <h3><a href="https://github.com/RL-Santos/sugardollph-website" target="_blank" rel="noopener">sugardollph-website</a></h3>
+            <span class="status">In progress</span>
+          </div>
+          <p>An online clothing shop for Sugardoll Clothing Shop. Customers can browse, save a cart, check out and chat with support. Admins manage users, products and orders, and warehouse staff update orders by scanning QR codes.</p>
+          <p class="tags">Node.js, Express, SQLite, HTML</p>
+        </li>
+        <li>
+          <div class="p-head">
+            <h3>PhishGuard</h3>
+            <span class="status">In progress</span>
+          </div>
+          <p>A Firefox extension that flags phishing sites. It checks for typosquatting, IDN homograph attacks, subdomain spoofing and suspicious TLDs.</p>
+          <p class="tags">JavaScript, WebExtensions, Security</p>
+        </li>
+        <li>
+          <div class="p-head">
+            <h3><a href="https://github.com/RL-Santos/Scripts" target="_blank" rel="noopener">Scripts</a></h3>
+          </div>
+          <p>A growing collection of shell scripts that automate small tasks on my Linux setup.</p>
+          <p class="tags">Bash, Linux</p>
+        </li>
+        <li>
+          <div class="p-head">
+            <h3><a href="https://github.com/RL-Santos/School-Notes" target="_blank" rel="noopener">School-Notes</a></h3>
+          </div>
+          <p>My notes for studying infrastructure systems in more depth, kept in the open.</p>
+          <p class="tags">Networking, Systems</p>
+        </li>
+        <li>
+          <div class="p-head">
+            <h3>Unity games</h3>
+          </div>
+          <p>Several 2D games in Unity and C#, including CAP YBARA and an endless wave-survival game I finished in a single day.</p>
+          <p class="tags">Unity, C#, Game development</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="block contact">
+      <h2>Contact</h2>
+      <p class="lead-sm">I'm open to opportunities. The best way to reach me is through LinkedIn or GitHub.</p>
+      <div class="actions">
+        <a class="btn btn-yellow" href="https://www.linkedin.com/in/rusty-lloyd-santos" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-outline" href="https://github.com/RL-Santos" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="tape" aria-hidden="true"></div>
+  <footer class="footer">
+    <p>&copy; 2026 Rusty Lloyd Santos. Built with plain HTML and CSS.</p>
+    <a href="#profile">Back to top</a>
+  </footer>
+
+</body>
+</html>
